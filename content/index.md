@@ -1,6 +1,15 @@
 ---
-title: Welcome to Quartz
+title: Home
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# Welcome
+
+This is my digital garden. Here you'll find...
+
+## Recent Posts
+- [[My First Post]]
+- [[About Me]]
+
+## Featured Content
+- [[Projects]]
+- [[Notes]]
