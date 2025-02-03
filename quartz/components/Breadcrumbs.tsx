@@ -33,10 +33,10 @@ interface BreadcrumbOptions {
 }
 
 const defaultOptions: BreadcrumbOptions = {
-  spacerSymbol: "❯",
-  rootName: "Home",
+  spacerSymbol: "/",
+  rootName: "Priya Shah",
   resolveFrontmatterTitle: true,
-  hideOnRoot: true,
+  hideOnRoot: false,
   showCurrentPage: true,
 }
 
