@@ -14,8 +14,8 @@ Navigation.css = `
 .navigation {
   margin: 0;
 
-  a {
-    margin-left: 0.5rem;
+  a.nav-link {
+    margin-left: 0.7rem;
   }
 }
 `
