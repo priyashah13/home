@@ -6,6 +6,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
     Component.Breadcrumbs(),
+    Component.Navigation(),
     Component.Darkmode(),
   ],
   afterBody: [],
@@ -27,11 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-    Component.ContentMeta({
-      showReadingTime: false
-      }
-    )],
+  beforeBody: [],
   left: [],
   right: [],
 }
