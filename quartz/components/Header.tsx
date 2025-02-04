@@ -8,7 +8,6 @@ Header.css = `
 header {
   display: flex;
   flex-direction: row;
-  align-content: space-between;
   margin: 2rem 0;
   gap: 1.5rem;
 }

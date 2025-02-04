@@ -31,7 +31,10 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(), 
-    Component.ContentMeta()],
+    Component.ContentMeta({
+      showReadingTime: false
+      }
+    )],
   left: [],
   right: [],
 }

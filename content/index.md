@@ -1,15 +1,13 @@
 ---
-title: home
+title: Home
+---
+- [[About]]
+- [[Projects - Coming Soon]]
+
+#### Latest
+
+- [[My First Post - Coming Soon]]
+
 ---
 
-# Welcome
-
-This is my digital garden. Here you'll find...
-
-## Recent Posts
-- [[My First Post]]
-- [[About Me]]
-
-## Featured Content
-- [[Projects]]
-- [[Notes]]
+#### Writing
