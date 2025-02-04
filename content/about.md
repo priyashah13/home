@@ -1,6 +1,7 @@
 ---
 title: About Me
 ---
+# About me
 I'm Priya. Currently exploring at South Park Commons. 
 
 Previously:
@@ -12,3 +13,4 @@ Previously:
 Passionate about: Product, technology, and human-centered design  
 What drives me: Creative problem-solving, technology for positive impact  
 Outside of work: Wellness, food, travel, and mentoring
+

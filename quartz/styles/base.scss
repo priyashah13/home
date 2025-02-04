@@ -70,18 +70,16 @@ strong {
 }
 
 a {
-  font-weight: $semiBoldWeight;
-  text-decoration: none;
+  font-weight: 200;
+  text-decoration: underline;
   transition: color 0.2s ease;
-  color: var(--secondary);
+  color: var(--darkgray);
 
   &:hover {
     color: var(--tertiary) !important;
   }
 
   &.internal {
-    text-decoration: none;
-    background-color: var(--highlight);
     padding: 0 0.1rem;
     border-radius: 5px;
     line-height: 1.4rem;
@@ -323,6 +321,7 @@ h5,
 h6,
 thead {
   font-family: var(--headerFont);
+  font-weight: 200;
   color: var(--dark);
   margin-bottom: 0;
 
@@ -478,13 +477,16 @@ p {
   overflow-x: auto;
 
   & > table {
-    margin: 1rem;
+    margin: 1rem 0;
     padding: 1.5rem;
     border-collapse: collapse;
+    width: 100%;
 
     th,
     td {
-      min-width: 75px;
+      min-width: 150px;
+      vertical-align: top;
+      text-align: left;
     }
 
     & > * {
@@ -494,9 +496,7 @@ p {
 }
 
 th {
-  text-align: left;
-  padding: 0.4rem 0.7rem;
-  border-bottom: 2px solid var(--gray);
+  display: none;
 }
 
 td {
@@ -600,4 +600,8 @@ iframe.pdf {
   background: var(--secondary);
   transition: width 0.2s ease;
   z-index: 9999;
+}
+
+ul > li {
+  color: var(--gray);
 }

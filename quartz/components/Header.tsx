@@ -10,6 +10,9 @@ header {
   flex-direction: row;
   margin: 2rem 0;
   gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 header h1 {

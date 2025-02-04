@@ -37,7 +37,7 @@ const defaultOptions: BreadcrumbOptions = {
   rootName: "Priya Shah",
   resolveFrontmatterTitle: true,
   hideOnRoot: false,
-  showCurrentPage: true,
+  showCurrentPage: false,
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
