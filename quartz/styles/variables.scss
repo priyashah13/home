@@ -17,42 +17,73 @@ $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.ge
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
-$sidePanelWidth: 320px; //380px;
+// $sidePanelWidth: 320px; //380px;
 $topSpacing: 6rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
 $normalWeight: 400;
 
-$mobileGrid: (
-  templateRows: "auto auto auto auto auto",
-  templateColumns: "auto",
-  rowGap: "5px",
-  columnGap: "5px",
-  templateAreas:
-    '"grid-sidebar-left"\
-      "grid-header"\
-      "grid-center"\
-      "grid-sidebar-right"\
-      "grid-footer"',
-);
-$tabletGrid: (
-  templateRows: "auto auto auto auto",
-  templateColumns: "#{$sidePanelWidth} auto",
-  rowGap: "5px",
-  columnGap: "5px",
-  templateAreas:
-    '"grid-sidebar-left grid-header"\
-      "grid-sidebar-left grid-center"\
-      "grid-sidebar-left grid-sidebar-right"\
-      "grid-sidebar-left grid-footer"',
-);
-$desktopGrid: (
-  templateRows: "auto auto auto",
-  templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
-  rowGap: "5px",
-  columnGap: "5px",
-  templateAreas:
-    '"grid-sidebar-left grid-header grid-sidebar-right"\
-      "grid-sidebar-left grid-center grid-sidebar-right"\
-      "grid-sidebar-left grid-footer grid-sidebar-right"',
-);
+
+// $mobileGrid: (
+//   templateRows: "auto auto auto auto auto",
+//   templateColumns: "auto",
+//   rowGap: "5px",
+//   columnGap: "5px",
+//   templateAreas:
+//     '"grid-sidebar-left"\
+//       "grid-header"\
+//       "grid-center"\
+//       "grid-sidebar-right"\
+//       "grid-footer"',
+// );
+// $tabletGrid: (
+//   templateRows: "auto auto auto auto",
+//   templateColumns: "auto auto",
+//   rowGap: "5px",
+//   columnGap: "5px",
+//   templateAreas:
+//     '"grid-sidebar-left grid-header"\
+//       "grid-sidebar-left grid-center"\
+//       "grid-sidebar-left grid-sidebar-right"\
+//       "grid-sidebar-left grid-footer"',
+// );
+// $desktopGrid: (
+//   templateRows: "auto auto auto",
+//   templateColumns: "auto auto auto",
+//   rowGap: "5px",
+//   columnGap: "5px",
+//   templateAreas:
+//     '"grid-sidebar-left grid-header grid-sidebar-right"\
+//       "grid-sidebar-left grid-center grid-sidebar-right"\
+//       "grid-sidebar-left grid-footer grid-sidebar-right"',
+// );
+
+
+$wrap-wide: 54em;
+$media-phone: 600px;
+
+:root {
+  --font-content: -apple-system, BlinkMacSystemFont, "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
+  --font-ui: var(--font-content);
+  --font-mono:  ui-monospace, SFMono-Regular, "Cascadia Code", "IBM Plex Mono", "Roboto Mono", "DejaVu Sans Mono", "Liberation Mono", Menlo, Monaco, "Consolas", "Source Code Pro", monospace;
+  --border-radius: 4px;
+  --font-small: 0.875em;
+  --font-smaller: 0.8em;
+  --wrap-wide: 54em;
+  --wrap-normal: 37em;
+  --input-width: 20em;
+  --image-radius: 6px;
+  --line-height: 1.5;
+
+  @media (max-width: 860px) {
+    --wrap-normal: 88vw;
+    --wrap-wide: 100vw;
+    --input-width: 100%;
+    .wide,
+    .wider {
+      --border-radius: 0;
+      --image-radius: 60px;
+      
+    }
+  }
+}

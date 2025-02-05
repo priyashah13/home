@@ -35,14 +35,14 @@ interface BreadcrumbOptions {
 const defaultOptions: BreadcrumbOptions = {
   spacerSymbol: "/",
   rootName: "Priya Shah",
-  resolveFrontmatterTitle: true,
+  resolveFrontmatterTitle: false,
   hideOnRoot: false,
   showCurrentPage: false,
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
   return {
-    displayName: displayName.replaceAll("-", " "),
+    displayName: displayName.replaceAll("-", " ").charAt(0).toUpperCase() + displayName.replaceAll("-", " ").slice(1),
     path: resolveRelative(baseSlug, currentSlug),
   }
 }

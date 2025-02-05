@@ -42,12 +42,13 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
+        const description = page.frontmatter?.description ?? []
 
         return (
           <li class="section-li">
             <div class="section">
               <p class="meta">
-                {page.dates && <Date date={getDate(cfg, page)!} locale={cfg.locale} />}
+                {page.dates && getDate(cfg, page)!.getFullYear()}
               </p>
               <div class="desc">
                 <h3>
