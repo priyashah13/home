@@ -4,11 +4,10 @@ title: Home
 # About me
 HI! I'm Priya. Currently exploring at [South Park Commons](https://www.southparkcommons.com/). 
 
-- [[Notes]]
-- [[Projects|Projects]]
-- [[Speaking]]
-- [[Recipes]] (Coming Soon)
-
+- [[notes|Notes]]
+- [[projects|Projects]]
+- [[speaking|Speaking]]
+- [[recipes|Recipes]] (Coming Soon)
 <br>
 
 
