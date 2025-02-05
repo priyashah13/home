@@ -1,5 +1,5 @@
 ---
-title: write it down
+title: Write it down
 date: Dec 5, 2024
 tags:
   - writing
