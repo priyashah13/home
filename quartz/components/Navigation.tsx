@@ -3,7 +3,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 const Navigation: QuartzComponent = ({}: QuartzComponentProps) => {
     return (
       <div class="navigation">
-        <a href="/content/about" class="nav-link">About</a>
+        <a href="/about" class="nav-link">About</a>
         <a href="/projects" class="nav-link">Projects</a>
         <a href="/speaking" class="nav-link">Speaking</a>
       </div>
