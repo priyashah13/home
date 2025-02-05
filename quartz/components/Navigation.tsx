@@ -10,4 +10,14 @@ const Navigation: QuartzComponent = ({}: QuartzComponentProps) => {
     )
 }
 
+Navigation.css = `
+.navigation {
+  margin: 0;
+
+  a.nav-link {
+    margin-left: 0.7rem;
+  }
+}
+`
+
 export default (() => Navigation) satisfies QuartzComponentConstructor
