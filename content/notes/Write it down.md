@@ -4,6 +4,8 @@ date: 2024-12-05
 tags:
   - writing
 ---
+# Write it down
+
 Writing makes companies better.
 
 The nature of work today is transient. People discuss, debate, and decide over meetings and slack. But these conversations deteriorate - they lose detail and clarity over time.
