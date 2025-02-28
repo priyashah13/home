@@ -2,14 +2,15 @@
 title: Home
 ---
 # About me
-HI! I'm Priya. Currently exploring at [South Park Commons](https://www.southparkcommons.com/). 
+Hi, I'm Priya. 
+Early-stage founder at [South Park Commons](https://www.southparkcommons.com/). 
+Angel Investing at[ The Council Angels](https://www.thecouncil.co/angels)
 
 - [[notes|Notes]]
 - [[projects|Projects]]
 - [[speaking|Speaking]]
 - [[recipes|Recipes]] (Coming Soon)
 <br>
-
 
 **Previously**:  
 · Led product at [Siena AI](https://www.siena.cx/), an AI-agent for e-commerce customer service.  
