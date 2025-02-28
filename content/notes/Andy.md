@@ -1,5 +1,7 @@
 ---
 date: 2016-05-15
+tags:
+  - art
 ---
 # Andy
 **Mixed Media**

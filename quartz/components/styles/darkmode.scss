@@ -43,3 +43,27 @@
     display: none;
   }
 }
+
+.navigation {
+  margin: 0;
+  min-height: 100%;
+  padding-top: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  
+  a.nav-link {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    text-decoration: underline;
+    padding-bottom: 0rem;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}

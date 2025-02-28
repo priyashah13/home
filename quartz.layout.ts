@@ -6,7 +6,6 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
     Component.Breadcrumbs(),
-    Component.Navigation(),
     Component.Darkmode(),
   ],
   afterBody: [],
