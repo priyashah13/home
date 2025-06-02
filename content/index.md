@@ -2,10 +2,7 @@
 title: Home
 ---
 # About me
-Hi, I'm Priya.  
-
-Early-stage founder at [South Park Commons](https://www.southparkcommons.com/).  
-Angel Investing at [The Council Angels](https://www.thecouncil.co/angels).  
+Hi, I'm Priya, a creative technologist based in San Francisco. 
 
 - [[notes|Notebook]]
 - [[projects|Projects]]
